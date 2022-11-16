@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+state=$1
+
+if [[ $state == 'off' ]]; then
+  /bin/launchctl unsetenv MTL_HUD_ENABLED
+else
+  /bin/launchctl setenv MTL_HUD_ENABLED 1
+fi
+
+return 0
