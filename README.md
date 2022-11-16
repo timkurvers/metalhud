@@ -2,6 +2,8 @@
 
 [![MIT License](https://badgen.net/github/license/timkurvers/metalhud)](LICENSE.md)
 
+<img align="right" width="200" src="https://user-images.githubusercontent.com/378235/202293687-e3bb9558-439c-4bae-b52c-78ca2b33606f.png" />
+
 Quickly enable/disable the Metal 3 Performance HUD as outlined in [MrMacRight's excellent video].
 
 Requires **macOS Ventura 13**.
