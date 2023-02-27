@@ -8,7 +8,7 @@ Quickly enable/disable the Metal 3 Performance HUD as outlined in [MrMacRight's 
 
 Requires **macOS Ventura 13**.
 
-As opposed to enabling the HUD for each individual game or application, this binary sets the env
+As opposed to enabling the HUD for each individual game or application, this script sets the env
 variable `MTL_HUD_ENABLED` globally to apply to any Metal 3 context.
 
 ## Installation
@@ -24,6 +24,7 @@ antigen bundle timkurvers/metalhud
 ```shell
 metalhud on
 metalhud off
+metalhud status
 ```
 
 [Antigen]: https://github.com/zsh-users/antigen
