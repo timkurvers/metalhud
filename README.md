@@ -16,7 +16,7 @@ variable `MTL_HUD_ENABLED` globally to apply to any Metal 3 context.
 Add as a bundle through [Antigen]:
 
 ```shell
-antigen bundle timkurvers/metalhud
+antigen bundle timkurvers/metalhud@main
 ```
 
 ## Usage
